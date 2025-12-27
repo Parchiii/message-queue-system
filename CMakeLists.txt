@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.28.3)
+project(MessageQueue VERSION 0.0.1 LANGUAGES C CXX)
+
+set(CORE_LIBRARY CoreLibrary)
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+#agregar src como subdirectorio para usar un cmake interior
+add_subdirectory(src)
